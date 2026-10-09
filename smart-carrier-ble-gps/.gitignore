@@ -1,0 +1,17 @@
+**/.dart_tool/
+**/build/
+**/.flutter-plugins*
+**/.gradle/
+**/local.properties
+**/key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/.env
+**/node_modules/
+*.log
+.DS_Store
+
+# Host-side tests
+**/__pycache__/
+*.pyc
+tests/.packet_probe

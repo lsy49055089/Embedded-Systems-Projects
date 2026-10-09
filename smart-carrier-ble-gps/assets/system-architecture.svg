@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800">
+  <defs>
+    <marker id="end" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#24384b"/></marker>
+    <style>
+      text {font-family:NanumGothic, sans-serif;fill:#24384b}
+      .title {font-size:34px;font-weight:700}
+      .head {font-size:26px;font-weight:700}
+      .body {font-size:23px}
+      .note {font-size:20px;fill:#536373}
+      .box {fill:white;stroke:#24384b;stroke-width:2.5}
+      .wire {fill:none;stroke:#24384b;stroke-width:3;marker-end:url(#end)}
+    </style>
+  </defs>
+  <rect width="1440" height="800" fill="white"/>
+  <text x="50" y="62" class="title">BLE·GPS 스마트 캐리어 — 시스템 구성</text>
+  <line x1="50" y1="90" x2="1390" y2="90" stroke="#c2cbd3" stroke-width="2"/>
+  <rect x="50" y="140" width="660" height="235" rx="4" fill="#f6f8fa" stroke="#c2cbd3" stroke-width="2"/>
+  <text x="72" y="177" class="head">캐리어</text>
+  <rect x="90" y="220" width="220" height="100" rx="4" class="box"/>
+  <text x="200" y="257" text-anchor="middle" class="head">GPS 모듈</text>
+  <text x="200" y="292" text-anchor="middle" class="body">위도·경도 수신</text>
+  <rect x="470" y="220" width="210" height="100" rx="4" class="box"/>
+  <text x="575" y="257" text-anchor="middle" class="head">ESP32</text>
+  <text x="575" y="292" text-anchor="middle" class="body">좌표 처리·전달</text>
+  <path d="M310 270 H460" class="wire"/>
+  <text x="390" y="249" text-anchor="middle" class="body">UART</text>
+  <rect x="900" y="190" width="390" height="165" rx="4" class="box"/>
+  <text x="1095" y="231" text-anchor="middle" class="head">여행자 앱</text>
+  <text x="1095" y="267" text-anchor="middle" class="body">Flutter · Android</text>
+  <line x1="925" y1="285" x2="1265" y2="285" stroke="#c2cbd3" stroke-width="2"/>
+  <text x="1095" y="322" text-anchor="middle" class="body">Google Maps · 위치 마커</text>
+  <path d="M693 270 H885" class="wire" marker-start="url(#end)"/>
+  <text x="790" y="230" text-anchor="middle" class="head">BLE</text>
+  <text x="790" y="309" text-anchor="middle" class="note">위치·연결·인증</text>
+  <path d="M1095 355 V480" class="wire"/>
+  <text x="1120" y="425" class="body">SOS 요청</text>
+  <rect x="900" y="490" width="390" height="110" rx="4" class="box"/>
+  <text x="1095" y="535" text-anchor="middle" class="head">Firebase · FCM</text>
+  <text x="1095" y="573" text-anchor="middle" class="body">긴급 알림 전달</text>
+  <rect x="430" y="490" width="250" height="110" rx="4" class="box"/>
+  <text x="555" y="535" text-anchor="middle" class="head">보호자 앱</text>
+  <text x="555" y="573" text-anchor="middle" class="body">알림 수신</text>
+  <path d="M900 545 H692" class="wire" stroke-dasharray="10 7"/>
+  <text x="795" y="519" text-anchor="middle" class="body">FCM 알림</text>
+  <text x="795" y="643" text-anchor="middle" class="note">보호자 단말 수신 연동 미완료</text>
+  <text x="70" y="464" class="head">위치 확인</text>
+  <text x="70" y="504" class="body">BLE로 받은 좌표를</text>
+  <text x="70" y="541" class="body">앱 지도에 표시</text>
+  <line x1="50" y1="694" x2="1390" y2="694" stroke="#c2cbd3" stroke-width="2"/>
+  <text x="50" y="737" class="body">위치 경로: UART + BLE</text>
+  <text x="640" y="737" class="body">긴급 요청 경로: 모바일 네트워크 + Firebase/FCM</text>
+  <text x="50" y="774" class="note">BLE 연결 해제 후에는 마지막 수신 위치를 조회합니다.</text>
+</svg>

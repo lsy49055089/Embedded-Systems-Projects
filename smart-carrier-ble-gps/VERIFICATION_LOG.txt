@@ -1,0 +1,21 @@
+test_firmware_packet_decodes_in_app_format (test_firmware_bridge.FirmwareContractTest.test_firmware_packet_decodes_in_app_format) ... ok
+test_invalid_fix_does_not_return_a_location (test_firmware_bridge.FirmwareContractTest.test_invalid_fix_does_not_return_a_location) ... ok
+test_core_2_style_api (test_firmware_sketch.FirmwareSketchTests.test_core_2_style_api) ... ok
+test_core_3_style_api (test_firmware_sketch.FirmwareSketchTests.test_core_3_style_api) ... ok
+test_dart_relative_imports (test_project_static.ProjectStructureTests.test_dart_relative_imports) ... ok
+test_demo_never_persists_virtual_gps_or_sends_cloud (test_project_static.ProjectStructureTests.test_demo_never_persists_virtual_gps_or_sends_cloud) ... ok
+test_no_hardcoded_live_carrier_location (test_project_static.ProjectStructureTests.test_no_hardcoded_live_carrier_location) ... ok
+test_project_manifest_and_firebase_json (test_project_static.ProjectStructureTests.test_project_manifest_and_firebase_json) ... ok
+test_source_delimiters_heuristic (test_project_static.ProjectStructureTests.test_source_delimiters_heuristic) ... ok
+test_uuids_match_firmware_and_app (test_project_static.ProjectStructureTests.test_uuids_match_firmware_and_app) ... ok
+test_corrupted (test_protocol.ProtocolTest.test_corrupted) ... ok
+test_no_fix (test_protocol.ProtocolTest.test_no_fix) ... ok
+test_valid_packet (test_protocol.ProtocolTest.test_valid_packet) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.691s
+
+OK
+PASS: firmware sketch PC-stub compile and lifecycle smoke test
+PASS: firmware sketch PC-stub compile and lifecycle smoke test
+Flutter not installed: Flutter analysis/build not verified
