@@ -1,4 +1,9 @@
-# Embedded Systems
+<a id="embedded-systems"></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/readme/header-dark.svg">
+  <img src="./assets/readme/header-light.svg" width="100%" alt="Embedded Systems">
+</picture>
 
 MCU의 입력·타이밍·주변장치를 제어하고, BLE·GPS와 모바일 앱을 연결한 펌웨어·시스템 프로젝트입니다.
 
@@ -6,6 +11,9 @@ MCU의 입력·타이밍·주변장치를 제어하고, BLE·GPS와 모바일 �
 <a id="embedded-systems-projects"></a>
 <a id="projects"></a>
 <a id="portfolio-navigation"></a>
+
+
+[프로젝트 목록](#프로젝트) · [웹 포트폴리오 ↗](https://seungyeol-rtl-portfolio.azuretide33.chatgpt.site)
 
 ## 프로젝트
 
